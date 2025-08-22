@@ -1,0 +1,10 @@
+[workspace]
+authors = ["Neil Scheidwasser"]
+channels = ["conda-forge"]
+name = "phylo2vec-workshop"
+platforms = ["linux-64", "osx-64", "osx-arm64"]
+version = "2025.08.22"
+
+[tasks]
+
+[dependencies]
