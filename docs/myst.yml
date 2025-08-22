@@ -5,8 +5,23 @@ project:
   # title:
   # description:
   # keywords: []
-  # authors: []
+  authors:
+  - name: "Neil Scheidwasser"
+    id: Neclow
+    orcid: "0000-0001-9922-0289"
+    github: Neclow
+  - name: "Landung 'Don' Setiawan"
+    id: lsetiawan
+    affiliations:
+      - id: uw-escience
+        institution: University of Washington
+        department: eScience Institute, Scientific Software Engineering Center
+        ror: 00cvxb145
+    orcid: "0000-0002-1624-2667"
+    github: lsetiawan
   github: https://github.com/sbhattlab/phylo2vec-workshop
+  toc:
+    - file: index.md
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
 site:
   template: book-theme
