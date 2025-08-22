@@ -1,4 +1,8 @@
+#                             VVVVVV  minimum `pixi` version
+"$schema" = "https://pixi.sh/v0.50.0/schema/manifest/schema.json"
+
 [workspace]
+requires-pixi = ">=0.50,<1.0"
 authors = ["Neil Scheidwasser"]
 channels = ["conda-forge"]
 name = "phylo2vec-workshop"
