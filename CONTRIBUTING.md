@@ -1,10 +1,10 @@
-# Contributing to Phylo2vec Workshop
+# Contributing to Phylo2Vec Workshop
 
-To contribute to the Phylo2vec Workshop, you must have [Pixi](https://pixi.sh) installed.
+To contribute to the Phylo2Vec Workshop, you must have [Pixi](https://pixi.sh) installed.
 
 ## Setting Up Your Environment
 
-1. **Clone the Repository**: Start by cloning the Phylo2vec Workshop repository to your local machine.
+1. **Clone the Repository**: Start by cloning the Phylo2Vec Workshop repository to your local machine.
 
    ```bash
    git clone https://github.com/sbhattlab/phylo2vec-workshop.git
@@ -16,11 +16,11 @@ To contribute to the Phylo2vec Workshop, you must have [Pixi](https://pixi.sh) i
    pixi install --all
    ```
 
-At this point, you should have all the necessary dependencies installed for the Phylo2vec Workshop.
+At this point, you should have all the necessary dependencies installed for the Phylo2Vec Workshop.
 
 ## Contributing to the content
 
-All of the content for the Phylo2vec Workshop is stored in the `docs` directory.
+All of the content for the Phylo2Vec Workshop is stored in the `docs` directory.
 You can edit the content using your preferred text editor or IDE.
 The technology we use to render the content is [Jupyter Book v2](https://next.jupyterbook.org) and you can add content in the form of [Myst Markdown](https://next.jupyterbook.org/tutorial/mystmd)
 or [Jupyter Notebooks](https://mystmd.org/guide/quickstart-jupyter-lab-myst).
@@ -40,7 +40,7 @@ This will allow [ReadtheDocs](https://readthedocs.org) to generate a preview of 
 
 ## Release Process
 
-The release process for the Phylo2vec Workshop is a manual process that involves the following steps.
+The release process for the Phylo2Vec Workshop is a manual process that involves the following steps.
 
 ### 1. Updating the codebase
 
