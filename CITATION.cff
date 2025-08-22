@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Scheidwasser"
+    given-names: "Neil"
+    orcid: "https://orcid.org/0000-0001-9922-0289"
+  - family-names: "Setiawan"
+    given-names: "Landung"
+    orcid: "https://orcid.org/0000-0002-1624-2667"
+title: "A workshop for Phylo2Vec, a vector representation for binary trees."
+url: "https://phylo2vec-workshop.readthedocs.io"
+repository-code: "https://github.com/sbhattlab/phylo2vec-workshop"
