@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 694b0953-b09b-4785-94da-df139b379d5c
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/sbhattlab/phylo2vec-workshop
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
