@@ -1,5 +1,5 @@
-# Phylo2vec Workshop
+# Phylo2Vec Workshop
 
-This repository contains materials for the Phylo2vec Workshop.
+This repository contains materials for the Phylo2Vec Workshop.
 
 More content coming soon!
