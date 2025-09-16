@@ -83,19 +83,6 @@ cmd = [
 [feature.data.tasks.download-latest-data]
 depends-on = ["set-default-repo"]
 cmd = [
-    "gh",
-    "release",
-    "download",
-    "--dir",
-    "./dist",
-    "--pattern",
-    "data.zip",
-    "--clobber"
-]
-
-[feature.data.tasks.setup-data]
-depends-on = ["download-latest-data", "unzip"]
-cmd = [
     "curl",
     "-o",
     "data/primates.fa",
@@ -106,6 +93,9 @@ cmd = [
     "data/lemurs.fa",
     "https://raw.githubusercontent.com/zcrabbit/vbpi-gnn/7e37bd6d08c8427433495d0882a2eb3141b2b759/data/hohna_datasets_fasta/DS3.fasta",
 ]
+
+[feature.data.tasks.setup-data]
+depends-on = ["download-latest-data"]
 
 # Optional data tasks
 [feature.data.tasks.delete-release]
