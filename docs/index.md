@@ -8,7 +8,7 @@ Given the importance of this data structure, a plethora of corresponding softwar
 
 Our latest contributions have completely rewritten the core component of phylo2vec in Rust, boosting both performance and memory efficiency—while still maintaining the Python and R APIs. We’ve also implemented several optimizations to reduce time complexity.
 
-Whether you’re a phylogenetics enthusiast or simply curious about developing scientific packages, using Rust, using GitHub Actions, or performing proper benchmarking, join our workshop and experience it firsthand! The session will last 1 hour 30 minutes, and all participants will receive a £10 lunch voucher afterward. Please bring a laptop so you can follow along and try things out yourself!
+The session will last 1 hour 30 minutes. Please bring a laptop so you can follow along and try things out yourself!
 
 The workshop is co-organised by the University of Copenhagen, the eScience institute, and the Statistics Section of the Department of Mathematics at Imperial College London.
 
@@ -36,7 +36,8 @@ The workshop is co-organised by the University of Copenhagen, the eScience insti
 
 ## List of Exercises
 
-[UPDATE THIS SECTION WITH ACTUAL EXERCISE NAMES AND DESCRIPTIONS]
+* Exercise 1: build an adjacency matrix from a phylo2vec vector
+* Exercise 2: visualise a tree from a phylo2vec vector or matrix
 
 ## Running the Exercises
 
