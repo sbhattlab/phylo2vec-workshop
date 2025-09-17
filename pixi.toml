@@ -7,7 +7,7 @@ authors = ["Neil Scheidwasser"]
 channels = ["conda-forge", "bioconda"]
 name = "phylo2vec-workshop"
 platforms = ["linux-64", "osx-64", "osx-arm64"]
-version = "2025.09.15"
+version = "2025.09.17"
 
 [activation.env]
 RELEASE_VERSION = "v$PIXI_PROJECT_VERSION"
@@ -65,14 +65,13 @@ cmd = ["gh", "repo", "set-default", "$GITHUB_REPOSITORY"]
 description = "Set the default repository for GitHub CLI commands"
 
 [feature.data.tasks.release]
-depends-on = ["zip", "set-default-repo"]
-description = "Create GitHub release with data.zip asset"
+depends-on = ["set-default-repo"]
+description = "Create GitHub release with the current version"
 cmd = [
     "gh",
     "release",
     "create",
     "$RELEASE_VERSION",
-    "./dist/*.zip",
     "--title",
     "$RELEASE_VERSION",
     "-F",

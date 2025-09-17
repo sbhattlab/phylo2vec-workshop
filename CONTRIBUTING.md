@@ -56,7 +56,7 @@ The release process for the Phylo2Vec Workshop is a manual process that involves
 
 4. **Make a pull request**: Push your changes to the remote repository and create a pull request to merge your changes into the `main` branch.
 
-### 2. Updating the data and create a release
+### 2. Create a release
 
 1. **Setup Github Token**: Ensure you have a GitHub token set up in your environment for release.
 If you don't have a token yet, you can follow the [instruction provided by Github](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
@@ -68,24 +68,11 @@ Once you have your token, you need to set it in your environment:
 
    Replace `your_github_token` with your actual GitHub token.
 
-2. **Zip and Release the Data**: Run the following command to zip and release the data directory:
+2. **Release the workshop content**: Run the following command to release the workshop content:
 
    ```bash
    pixi run -e data release
    ```
-
-   This will create a `data.zip` file in a `./dist` directory. After that, the script will upload the `data.zip` file to the GitHub release.
-
-### Optional: Updating the data once released
-
-You have the option to update the data after it has been released.
-To do this, you can run the following command:
-
-```bash
-pixi run -e data update-release-data
-```
-
-This command will update the data in the existing release without creating a new release by zipping the `data` directory with the latest data and uploading it to the existing GitHub release.
 
 ## Delete a Release (Optional)
 
