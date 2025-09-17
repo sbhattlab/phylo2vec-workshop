@@ -2,17 +2,26 @@
 
 ## Abstract
 
-[UPDATE THIS SECTION WITH ACTUAL ABSTRACT]
+Phylogenetic trees are diagrams that illustrate species' shared evolutionary history. Represented as bifurcating binary trees, these trees also represent similar relationships such as tracing the similarities between languages.
+
+Given the importance of this data structure, a plethora of corresponding software currently exists. However, the current standard for representing a phylogenetic tree is a string via the Newick format. Conversely, phylo2vec represents phylogenetic trees as integer vectors. This representation requires substantially less storage, and thus enables more efficient tree operations.
+
+Our latest contributions have completely rewritten the core component of phylo2vec in Rust, boosting both performance and memory efficiency—while still maintaining the Python and R APIs. We’ve also implemented several optimizations to reduce time complexity.
+
+The session will last 1 hour 30 minutes. Please bring a laptop so you can follow along and try things out yourself!
+
+The workshop is co-organised by the University of Copenhagen, the eScience institute, and the Statistics Section of the Department of Mathematics at Imperial College London.
 
 ## Learning Goals
 
-[UPDATE THIS SECTION WITH ACTUAL LEARNING OBJECTIVES]
+* Learning the basics of the phylo2vec representation
+* Getting familiar with commonly used development tools for Python software: pixi, pytest, pytest-benchmark
 
 ## Workshop Logistical Information
 
 * Date: 19 September 2025
-* Time: 9:00 AM - 5:00 PM
-* Location: Imperial College London, London, UK
+* Time: 11:00 AM - 12:30 PM
+* Location: Huxley 410, Imperial College London, London, UK
 
 ## Preliminary Agenda
 
@@ -20,14 +29,15 @@
 
 | Time      | Topic/Activity       |
 |-----------|-----------------------------|
-| 09:00-09:30 | Welcome and Introductions |
-| 09:30-10:30 | Overview of Phylo2Vec and its Applications |
-
-[UPDATE THIS SECTION WITH ACTUAL AGENDA]
+| 11:00-11:15 | Welcome and Introductions |
+| 11:15-11:30 | Overview of Phylo2Vec and its Applications |
+| 11:30-12:00 | Tutorial |
+| 11:00-12:30 | Exercise |
 
 ## List of Exercises
 
-[UPDATE THIS SECTION WITH ACTUAL EXERCISE NAMES AND DESCRIPTIONS]
+* Exercise 1: build an adjacency matrix from a phylo2vec vector
+* Exercise 2: visualise a tree from a phylo2vec vector or matrix
 
 ## Running the Exercises
 
