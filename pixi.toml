@@ -50,7 +50,6 @@ build = { cmd = "jupyter book build --html", cwd = "docs" }
 depends-on = ["build"]
 cwd = "docs"
 cmd = "cp -R _build/html $READTHEDOCS_OUTPUT/html"
-env = { READTHEDOCS_OUTPUT = ".." }
 
 # Data feature configurations
 [feature.data.dependencies]
