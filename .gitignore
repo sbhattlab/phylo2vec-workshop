@@ -237,3 +237,9 @@ drafts*.ipynb
 
 # fasta
 *.fa
+
+# HTML
+html/
+
+# Tutorial outputs
+docs/*.tree
